@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size:16px;
+	font-style:normal;
+	background:#fafad2;
+	color:#000;
+}
+body{
+	background-color: white;
+
+}
+.resume{
+	width:80%;
+	height: auto; 
+	margin: auto;
+	/*border: 1px solid #000;
+
+*/
+
+
+
+}
+.explain{
+	display: inline-block;
+	width: 150px;
+	height: 25px;
+	/*border: 1px solid #000;*/
+	background: pink;
+	color: red;
+	text-align: center;
+	padding:2px;
+	border-radius: 0px 10px 10px 0px;
+
+}
+.extended{
+	display: inline-block;
+	color: red;
+	left: 14%;
+	
+
+}
+
+
+.resume-top{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	margin: auto;
+
+}
+.resume-top img{
+	float: right;
+	margin-right: 12%;
+	border: 2px solid red;
+	border-radius: 50%;
+
+}
+.resume-top-right span{
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 3%;
+
+
+}
+
+.resume-skills{
+	width: 100%;
+	height: 280px;
+	line-height: 2em;
+
+}
+.skills-explain{
+	margin: 3%;
+	line-height: 3em;
+
+
+}
+.resume-skills-right{
+	float: right;
+	
+}
+progress{
+     width: 168px;
+     height: 10px;
+     color:#f00;
+      background:#EFEFF4;
+      border-radius: 50rem;
+      margin: 5px;
+  }
+  /* 表示总长度背景色 */
+  progress::-webkit-progress-bar{     
+     background-color: #f2f2f2;
+     border-radius: 50rem;
+}
+ /* 表示已完成进度背景色 */
+ progress::-webkit-progress-value{
+      background: orange;
+       border-radius: 50rem;
+}
+.certificate{
+	width: 100%;
+	height: 200px;
+
+}
+
+.Selfassessment{
+	width: 100%;
+	height: 200px;
+}
+.certificate, .Selfassessment span{
+	margin-top:15px;
+	display: block;
+	line-height: 2em;
+}
+.certificate span{
+	margin: 3%;
+}
+.Selfassessment span{
+	margin: 3%;
+}
+.resume-works{
+	width: 100%;
+	height: auto;
+	/*border: 1px solid #000;*/
+
+}
+
+.web{
+	width: 100%;
+	height:300px;
+
+
+}
+
+.web div{
+	position: relative;
+	width: 30%;
+	float: left;
+	height: auto;
+	margin: 14px;
+	border: 1px solid #000;
+	 overflow: hidden;
+}
+
+.web img{
+	width: 100%;
+	
+}
+
+.web img{
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.web img:hover{
+  transform: scale(1.2);
+}
